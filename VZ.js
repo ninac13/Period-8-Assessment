@@ -270,7 +270,7 @@ let data = [
       "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/killfeedportrait.png",
     background:
       "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/background.png",
-    backgroundGradientColors: ["ffce6fff", "7b4d21ff", "372d2bff", "163555ff"],
+    backgroundGradientColors: ["ffce6fff", "7b4d21ff", "372d2bff", "66376cff"],
     assetPath: "ShooterGame/Content/Characters/Deadeye/Deadeye_PrimaryAsset",
     isFullPortraitRightFacing: false,
     isPlayableCharacter: true,
@@ -605,7 +605,9 @@ let data = [
     isPlayableCharacter: false,
     isAvailableForTest: false,
     isBaseContent: false,
-    role: null,
+    role: {
+      displayName: null,
+    },
     abilities: [
       {
         slot: "Ability1",
@@ -1026,7 +1028,7 @@ let data = [
       "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/killfeedportrait.png",
     background:
       "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/background.png",
-    backgroundGradientColors: ["f7bf60ff", "ea6d4eff", "262423ff", "363b42ff"],
+    backgroundGradientColors: ["f7bf60ff", "ea6d4eff", "262423ff", "66376cff"],
     assetPath: "ShooterGame/Content/Characters/Phoenix/Phoenix_PrimaryAsset",
     isFullPortraitRightFacing: true,
     isPlayableCharacter: true,
@@ -1776,10 +1778,6 @@ let data = [
   },
 ];
 
-data.forEach((agent) => {
-  console.log(agent);
-});
-
 // 1)While chaining array methods, print the name of each agent who's role is Duelist
 
-// 2) While chaining array methods, print the name of each agent who's abilities include "Guiding Light"
+// 2) While chaining array methods, print the name of each agent who's backgroundGradientColors include "66376cff"
