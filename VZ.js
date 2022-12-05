@@ -1778,6 +1778,6 @@ let data = [
   },
 ];
 
-// 1)While chaining array methods, print the name of each agent who's role is Duelist
+// 1)While chaining array methods, print the name of each agent who's role is Sentinel
 
 // 2) While chaining array methods, print the name of each agent who's backgroundGradientColors include "66376cff"

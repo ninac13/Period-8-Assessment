@@ -346,6 +346,6 @@ const data = {
   total_results: 714388,
 };
 
-// 1)While chaining array methods, print the name of each movie that has a vote_average above 7.0
+// 1)While chaining array methods, print the name of each movie that has a vote_average above 7.5
 
-// 2) While chaining array methods, print the name of each movie that has a genre id that includes 12
+// 2) While chaining array methods, print the name of each movie that has a genre id that includes 878
